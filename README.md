@@ -1,13 +1,16 @@
 # suduko
 Suduko puzzle solver in C
 
-#Algorithm
+Algorithm
+==========
 The possible fills are brute forced and backtracked whenever there is a collision or conflict. 
 
-#input
+input
+========
 Input to the program a NULL terminated string with the to-be-filled cells represented as zeros. 
 
-#output
+output
+========
 ```A sample output of the program is as below
 
 turchin-vbox10:~]$ ./suduko
