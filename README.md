@@ -8,7 +8,7 @@ The possible fills are brute forced and backtracked whenever there is a collisio
 Input to the program a NULL terminated string with the to-be-filled cells represented as zeros. 
 
 #output
-`A sample output of the program is as below
+```A sample output of the program is as below
 
 turchin-vbox10:~]$ ./suduko
 Enter serialized suduko puzzle with unfilled cells as zero
@@ -35,4 +35,4 @@ Solution found for the puzzle....
 6 4 1 2 5 3 8 7 9
 7 8 9 6 4 1 5 3 2
 End of the solution
-`
+```
