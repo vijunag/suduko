@@ -68,9 +68,7 @@ uint16_t getPossibleFills(Suduko *s, int cell_idx)
 int solve(Suduko *s)
 {
     if (!s->unfilled_cnt) {
-        printf("Solution found for the puzzle....\n");
         printSuduko(s);
-        printf("End of the solution\n");
         return 1;
     }
 
@@ -120,7 +118,6 @@ int main()
     }
     initSuduko(&s,str);
     printSuduko(&s);
-    printf("Printing the solution now...\n");
     solve(&s);
     return 0;
 }
